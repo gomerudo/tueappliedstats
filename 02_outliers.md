@@ -405,11 +405,11 @@ Follow next steps:
 1. Compute all variances.
 2. Order them (the variances).
 3. Take the first element (the smallest variance).
-4. Sum all the the variances and compute: `C = s_first^2 / sum_of_variances`
+4. Sum all the the variances and compute: `D = s_first^2 / sum_of_variances`
 
 #### Code
 
-To compute the statistic, check Week 2, Lecture 1, Slide 34
+To compute the statistic, check Week 2, Lecture 1, Slide 33-34 (or steps 1-4 from previous section)
 
 ```
 DATA Doornboos;
@@ -432,11 +432,11 @@ Follow next steps:
 2. Order them (the variances).
 3. Take the last element (the biggest std. dev).
 4. Sum all the the variances and compute: `C = s_last^2 / sum_of_variances`
-4. Compute the critical value with the code below and compare it against `ALPHA`
+5. Compute the critical value with the code below and compare it against `ALPHA`
 
 #### Code
 
-To compute the statistic, check Week 2, Lecture 1, Slide 34
+To compute the statistic, check Week 2, Lecture 1, Slide 33-34 (or steps 1-4 from previous section)
 
 ```
 DATA COCHRAN;
